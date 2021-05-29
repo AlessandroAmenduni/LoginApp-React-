@@ -3,7 +3,6 @@ import axios from 'axios';
 import { BrowserRouter as Router, Switch, Route,Link} from "react-router-dom";
 import reactDom from 'react-dom';
 
-
 function Registrazione() {
 
 
@@ -35,6 +34,7 @@ function Registrazione() {
     </div>
   );
 
+
   function Redirect(){
     axios({
       method: 'post',
@@ -47,5 +47,6 @@ function Registrazione() {
     });
   }
 }
+
 
 export default Registrazione;
